@@ -1,22 +1,10 @@
-- name: Adversarial Training to improve Robustness of BERT
-  url: https://github.com/grohith327/TextFooler
-  code: https://github.com/grohith327/TextFooler
-  description:
-    - point: Created adversarial examples for the sentiment classification task by perturbing the input words based on attention.
-    - point: Reduced training time from 12 hrs to 3 hrs by utilizing distributed data parallelism.
-    - point: Improved adversarial accuracy from 13% to 66% on selected GLUE and SuperGLUE tasks by performing adversarial MLM pre-training.
-  used:
-    - thing: Pytorch 
-    - thing: BERT
-    - thing: NLP
-  
 - name: Housing Price Prediction in NYC Boroughs
   url:
   code:
   description:
     - point: Performed feature selection for housing price prediction by performing Data Wrangling and Exploratory Data Analysis.
-    - point: Reduced processing time for data pipelines by 1.5 times using Dask and PySpark. 
-    - point: Created a dashboard for visualization of the features that influence the price of a house for each zipcode in NYC boroughs. 
+    - point: Reduced processing time for data pipelines by 1.5 times using Dask and PySpark.
+    - point: Created a dashboard for visualization of the features that influence the price of a house for each zipcode in NYC boroughs.
     - point: Built Linear Regression, Decision Tree and Ensemble models to accurately predict the price of a house in NYC boroughs.
   used:
     - thing: Pandas
@@ -45,47 +33,10 @@
   code: https://github.com/grohith327/simplegan
   description:
     - point: SimpleGAN is a python framework built on top of TensorFlow that aims to facilitate the training of AutoEncoders and GANs by provding high-level APIs
-    - point: Primary designer & developer for SimpleGAN, a framework built using Tensorflow that aims to facilitate the training of Autoencoders & GANs. 
+    - point: Primary designer & developer for SimpleGAN, a framework built using Tensorflow that aims to facilitate the training of Autoencoders & GANs.
     - point: The open-source project achieved over 5000 downloads.
     - point: Featured in the HacktoberFest of Made with ML.
   used:
-    - thing: TensorFlow 
+    - thing: TensorFlow
     - thing: GANs
     - thing: Computer Vision
-
-- name: Modelling Pedestrian Movements &amp; Emotion through Spatial Analysis
-  url: 
-  code: 
-  description:
-    - point: Gathered the Latitude and Longitude values of objects present at the intersection of Jay St and Myrtle Ave and modelled them in ArcMap
-    - point: Studied the movement of people crossing Jay St and modelled their interaction with the objects in the environment
-    - point: Studied how obtrusion in footpath affects the mood of people by using Convolutional Neural Network to identify their emotions and used Moran's I statistic to measure its auto-correlation
-  used:
-    - thing: ArcMap 
-    - thing: QGIS
-    - thing: Spatial Analysis
-    - thing: Computer Vision
-
-
-- name: Personal Voice Assistant
-  url: https://bit.ly/2QjbQqO
-  code: https://bit.ly/2QjbQqO
-  description:
-    - point: Built a personal voice assistant through a automatic speech recognition model for automating tasks on a desktop.
-    - point: Created a custom dataset and built a CNN to classify audio spectrograms into tasks and used shell scripts to automate the task.
-    - point: Performed model compression using Tensorflow-Lite and deployed it on the browser using TensorflowJS.
-  used:
-    - thing: TensorFlow 
-    - thing: Signal Processing
-
-
-- name: Artist Identification from a 5-sec snippet of a song
-  url: https://bit.ly/33NAwMa
-  code: https://bit.ly/33NAwMa
-  description:
-    - point: A real-time artist identification model that could identify the artist of a song
-    - point: The recorded audio sample is denoised and a short-time fourier transform (STFT) is applied on the signal and converted to mel-scale.
-    - point: A Convolutional Neural Network is used as a feature extractor to create a fingerprint of the audio sample which is used to match it to samples in a database within the L2 Norm space.
-  used:
-    - thing: TensorFlow 
-    - thing: Signal Processing

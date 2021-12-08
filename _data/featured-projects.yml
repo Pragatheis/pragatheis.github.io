@@ -1,46 +1,34 @@
-- name: Autonomous Drone Swarms 
-  url: https://yuejinyz.github.io/2020CapstoneProject.github.io/
-  code: https://github.com/grohith327/MARL-Drones
+- name: Soft Robotic Skin
   description:
-    - point: Developed a 2D and 3D simulation for testing path planning and task assignment algorithms for autonomous drone swarms.
-    - point: Reduced mapping coverage time by 45% by using transformers and Graph Neural Nets as policy networks.
-    - point: Performed Asynchronous multi-processing training of policy network with Actor-Critic algorithm.
-    - point: Utilized Wavefront, PotentialField & Velocity Obstacle method to perform motion planning and obstacle avoidance in 2D and 3D. 
-    - point: Improved the accuracy of object recognition models for drone swarms by 10% by sharing sparsely encoded multi-view information.
-    - point: Increased the spectral & spatial resolution of satellite images by 2% using CycleGAN & Pix2Pix with custom encoder models. 
-  used:
-    - thing: Pytorch 
-    - thing: RL
-    - thing: Drone
-    - thing: Computer Vision
+    - point: Developed and optimized a neuromorphic architecture for printable organic neurons used in a Soft Robotic Skin with zero negative weights constrain.
+    - point: I was majorly involved in developing the Neural Network algorithm and testing the electrical neurons. The ANN was physically implemented, tested and verified.
 
-- name: Indian Sign Language Recognition
-  url: https://doi.org/10.1145/3394171.3413528
-  code: 
-  description:
-    - point: Primary designer & developer for building a deep learning pipeline to convert Indian Sign Language videos to words. 
-    - point: Created a large scale Indian Sign Language dataset of size 55GB consisting of high resolution videos with 264 classes and released it publicly.
-    - point: Evaluated several deep neural networks combining different methods for augmentation, feature extraction, encoding, and decoding.
-    - point: Built a pipeline that uses pose estimation model, CNN video feature encoders and bidirectional LSTMs to classify signs.
-    - point: Based on the rigorous experiments, we observed that the combination of OpenPose as pose estimator, MobileNet as our video feature extractor &amp; Bidirectional LSTM as our sequence model works best.
-    - point: Achieved state-of-the-art accuracy of 92.1% on the American Sign Language (ASLLVD) dataset for the architecture.
-    - point: Increased throughput of the model by 15% by performing post-training quantization and pruning.
   used:
+    - thing: Pytorch
     - thing: TensorFlow
-    - thing: Caffe 
-    - thing: Video Recognition
-    - thing: Sequence models
-    - thing: Computer Vision
+    - thing: PSpice
+    - thing: Matlab
 
-- name: OCR Framework for low-resource Language
-  url:
-  code: 
+- name: Autonomous RC Car
   description:
-    - point: Developed an interactive OCR framework for low-resource languages including Sanskrit, Hindi and Gujarati.
-    - point: Built a cross-platform GUI desktop application in C++ language using Qt Creator that converts documents into editable format.
-    - point: Reduced OCR conversion errors by 5\% by using LSTMs, n-gram based edit distance methods \& updating LSTMs on the fly.
+    - point: Built and Programmed a R/C race car to navigate the halls of a generated map at extreme speeds autonomously in a rally race.
+    - point: Utilized AMCL in ROS to acquire the IMU data and the Hokuyo LIDAR to localize ourselves in a known map
+    - point: Finished 3rd in KNOY 500 race.
   used:
-    - thing: C++ 
-    - thing: Qt
-    - thing: TensorFlow
-    - thing: GUI desktop application
+    - thing: ROS
+    - thing: Matlab
+    - thing: LIDAR and IMU Intergration
+
+
+
+- name: Protein Bioinformatics
+
+  description:
+    - point: Drug Delivery Enhancement method using Electric pulses for breast cancer cells
+    - point: Optimized the electric field strength and pulse duration to increase the drug permeability in breast cancer cells.
+    - point: performed multiple label-free quantitative proteomics studies on various drugs and analyzed over 30,000 proteins and genes to study the mechanism of action
+  used:
+    - thing: Python
+    - thing: Prism 9
+    - thing: Matlab
+    
