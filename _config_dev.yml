@@ -1,0 +1,42 @@
+# Site settings
+name: Rohith Gandhi G
+title: Rohith Gandhi G
+description: Computer scientist passionate about machine learning &amp; software development
+url: ''
+baseurl: ''
+email: rgg296@nyu.edu
+cover: ./img/og.png
+resume: resume.pdf
+social:
+  - title: email
+    url: mailto:rgg296@nyu.edu
+  - title: github
+    url: https://github.com/grohith327
+  - title: linkedin
+    url: https://linkedin.com/in/grohith327
+  - title: Medium
+    url: https://medium.com/@grohith327
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=7MmxEV8AAAAJ
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

@@ -1,0 +1,46 @@
+- name: Autonomous Drone Swarms 
+  url: https://yuejinyz.github.io/2020CapstoneProject.github.io/
+  code: https://github.com/grohith327/MARL-Drones
+  description:
+    - point: Developed a 2D and 3D simulation for testing path planning and task assignment algorithms for autonomous drone swarms.
+    - point: Reduced mapping coverage time by 45% by using transformers and Graph Neural Nets as policy networks.
+    - point: Performed Asynchronous multi-processing training of policy network with Actor-Critic algorithm.
+    - point: Utilized Wavefront, PotentialField & Velocity Obstacle method to perform motion planning and obstacle avoidance in 2D and 3D. 
+    - point: Improved the accuracy of object recognition models for drone swarms by 10% by sharing sparsely encoded multi-view information.
+    - point: Increased the spectral & spatial resolution of satellite images by 2% using CycleGAN & Pix2Pix with custom encoder models. 
+  used:
+    - thing: Pytorch 
+    - thing: RL
+    - thing: Drone
+    - thing: Computer Vision
+
+- name: Indian Sign Language Recognition
+  url: https://doi.org/10.1145/3394171.3413528
+  code: 
+  description:
+    - point: Primary designer & developer for building a deep learning pipeline to convert Indian Sign Language videos to words. 
+    - point: Created a large scale Indian Sign Language dataset of size 55GB consisting of high resolution videos with 264 classes and released it publicly.
+    - point: Evaluated several deep neural networks combining different methods for augmentation, feature extraction, encoding, and decoding.
+    - point: Built a pipeline that uses pose estimation model, CNN video feature encoders and bidirectional LSTMs to classify signs.
+    - point: Based on the rigorous experiments, we observed that the combination of OpenPose as pose estimator, MobileNet as our video feature extractor &amp; Bidirectional LSTM as our sequence model works best.
+    - point: Achieved state-of-the-art accuracy of 92.1% on the American Sign Language (ASLLVD) dataset for the architecture.
+    - point: Increased throughput of the model by 15% by performing post-training quantization and pruning.
+  used:
+    - thing: TensorFlow
+    - thing: Caffe 
+    - thing: Video Recognition
+    - thing: Sequence models
+    - thing: Computer Vision
+
+- name: OCR Framework for low-resource Language
+  url:
+  code: 
+  description:
+    - point: Developed an interactive OCR framework for low-resource languages including Sanskrit, Hindi and Gujarati.
+    - point: Built a cross-platform GUI desktop application in C++ language using Qt Creator that converts documents into editable format.
+    - point: Reduced OCR conversion errors by 5\% by using LSTMs, n-gram based edit distance methods \& updating LSTMs on the fly.
+  used:
+    - thing: C++ 
+    - thing: Qt
+    - thing: TensorFlow
+    - thing: GUI desktop application

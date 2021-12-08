@@ -1,0 +1,29 @@
+languages:
+  - item: Python
+  - item: C++
+  - item: C
+  - item: JavaScript
+  - item: R
+
+frameworks:
+  - item: Pytorch
+  - item: TensorFlow
+  - item: Caffe
+  - item: MLPack
+  - item: Dask
+  - item: Pandas
+  - item: PySpark
+  - item: Sklearn
+  - item: NLTK
+  - item: Spacy
+  - item: React
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: PostgreSQL
+  - item: MySQL
+  - item: AWS
+  - item: GCP
+  - item: Docker
+  - item: ArcGIS

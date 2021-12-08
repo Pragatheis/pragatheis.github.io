@@ -1,0 +1,9 @@
+- name: INCLUDE - A Large Scale Dataset for Indian Sign Language Recognition
+  url: https://doi.org/10.1145/3394171.3413528
+  description: We propose a large scale Isolated Indian Sign Language Recognition dataset and we evaluate several deep neural networks combining different methods for augmentation, feature extraction, encoding and decoding. We also identify a novel xgboost model which achieves competitive performance to deep neural networks.   
+  used:
+    - thing: 28th ACM International Conference on Multimedia (MM’20)
+
+- name: Comparative Analysis of Agent-Oriented Task Assignment and Path Planning Algorithms Applied to Drone Swarms
+  url: https://arxiv.org/abs/2101.05161
+  description: We evaluate different neural networks for task assignment based on efficiency and effectiveness. We also compare a global and local planning algorithm and propose a modificaiton to PotentialField planner to adaptively scale the velocity of the drone to perform collision avoidance. 
