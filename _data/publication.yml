@@ -1,11 +1,11 @@
 - name: Analysis of Pathways in Triple-Negative Breast Cancer Cells 
-        Treated with the Combination of Electrochemotherapy and Cisplatin
+        Treated with the Combination of Electrochemotherapy
+- description: Upregualed proteins and genes are analyzed due to the treatments are studied and anlyzed.
   url: https://biointerfaceresearch.com/wp-content/uploads/2021/02/20695837115.1345313464.pdf
-
   used:
     - thing: Biointerface Research in Applied Chemistry, 13453-13464
 
 - name: Cisplatin-based Electrochemotherapy Significantly Downregulates Key Heat Shock Proteins 
-        in MDA-MB-231-Human Triple-Negative Breast Cancer Cells
+- description: HSPs were identified and the genomic pathways were studied
   used:
     - thing: Applied Biochemistry and Biotechnology, 1-12
