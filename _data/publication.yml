@@ -1,9 +1,10 @@
-- name: Analysis of Pathways in Triple-Negative Breast Cancer Cells 
+- name: Analysis of Pathways in Triple-Negative Breast Cancer Cells
         Treated with the Combination of Electrochemotherapy
   url: https://biointerfaceresearch.com/wp-content/uploads/2021/02/20695837115.1345313464.pdf
   used:
     - thing: Biointerface Research in Applied Chemistry, 13453-13464
 
-- name: Cisplatin-based Electrochemotherapy Significantly Downregulates Key Heat Shock Proteins 
+- name: Cisplatin-based Electrochemotherapy Significantly Downregulates Key Heat Shock Proteins
   url: https://link.springer.com/article/10.1007/s12010-021-03703-9
+  used:
     - thing: Applied Biochemistry and Biotechnology, 1-12
