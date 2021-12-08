@@ -28,15 +28,4 @@
     - thing: LightGBM
     - thing: Sklearn
 
-- name: SimpleGAN
-  url: https://simplegan.readthedocs.io/en/latest/
-  code: https://github.com/grohith327/simplegan
-  description:
-    - point: SimpleGAN is a python framework built on top of TensorFlow that aims to facilitate the training of AutoEncoders and GANs by provding high-level APIs
-    - point: Primary designer & developer for SimpleGAN, a framework built using Tensorflow that aims to facilitate the training of Autoencoders & GANs.
-    - point: The open-source project achieved over 5000 downloads.
-    - point: Featured in the HacktoberFest of Made with ML.
-  used:
-    - thing: TensorFlow
-    - thing: GANs
-    - thing: Computer Vision
+
