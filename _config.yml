@@ -1,23 +1,19 @@
 # Site settings
-name: Rohith Gandhi G
-title: Rohith Gandhi G
-description: Computer scientist passionate about machine learning &amp; software development
-url: https://grohith327.github.io/
+name: Pragatheiswar Giri
+title: Pragatheiswar Giri
+description: Biomedical scientist working in Cancer research, passionate about machine learning Robotics
+url: https://pragatheis.github.io/
 baseurl: ''
-email: rgg296@nyu.edu
-cover: https://grohith327.github.io/img/og.png
-resume: https://grohith327.github.io/resume.pdf
+email: pgiri@purdue.edu
 social:
   - title: email
-    url: mailto:rgg296@nyu.edu
+    url: mailto:pgiri@purdue.edu
   - title: github
-    url: https://github.com/grohith327
+    url: https://github.com/pragatheis
   - title: linkedin
-    url: https://linkedin.com/in/grohith327
-  - title: medium
-    url: https://medium.com/@grohith327
+    url: https://linkedin.com/in/pragatheis
   - title: Google Scholar
-    url: https://scholar.google.com/citations?hl=en&user=7MmxEV8AAAAJ
+    url: https://scholar.google.com/citations?user=TWgrVQgAAAAJ
 
 # Build settings
 markdown: kramdown
