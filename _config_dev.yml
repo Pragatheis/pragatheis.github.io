@@ -6,7 +6,7 @@ url: ''
 baseurl: ''
 email: pgiri@purdue.edu
 cover: ./img/og.png
-resume: CV.pdf
+resume: resume.pdf
 social:
   - title: email
     url: mailto:pgiri@purdue.edu
